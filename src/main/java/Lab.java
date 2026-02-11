@@ -19,11 +19,13 @@ public class Lab {
      * a method thrown to it. A try/catch block would handle the exception within the method.
      */
     public void mustThrow()throws Exception{
+       
         try {
+            
             System.out.println("String is null");
         }
         catch (Exception e) {
-            System.err.println("error occur");
+            System.err.println("name is Empty");
         }
     }
         
