@@ -25,7 +25,7 @@ public class Lab {
             System.out.println("String is null");
         }
         catch (Exception e) {
-            System.err.println("name is Empty");
+            e.printStackTrace();
         }
     }
         
