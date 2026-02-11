@@ -18,18 +18,10 @@ public class Lab {
      * This also means that you should NOT write a try/catch block in this method, as the tests are expecting to have
      * a method thrown to it. A try/catch block would handle the exception within the method.
      */
-    public void mustThrow()throws ArrayIndexOutOfBoundsException {
-        int [] array = {1, 5, 4, 14, 12};
-        try {
-            if (array.length > 5) {
-                System.out.println("if array length more than five it not working");
-            }
-
-        }
-        catch (ArrayIndexOutOfBoundsException e) {
-            System.err.println("to be thrown, but nothing was thrown");
-
-        }
+    public void mustThrow()throws Exception{
+        System.out.println("to be thrown, but nothing was thrown");
+    }
+        
 
     }
 }
