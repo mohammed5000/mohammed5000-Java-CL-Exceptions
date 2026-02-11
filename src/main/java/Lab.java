@@ -27,7 +27,7 @@ public class Lab {
 
         }
         catch (ArrayIndexOutOfBoundsException e) {
-            System.err.println("ArrayIndex is out of bounds");
+            System.err.println("to be thrown, but nothing was thrown");
 
         }
 
